@@ -32,7 +32,7 @@ class SendMails:
             'raw': base64.urlsafe_b64encode(
                 f'MIME-Version: 1.0\n'
                 f'Content-Type: text/html; charset="UTF-8"\n'
-                f"From: hack3d.txt@gmail.com\n"
+                f"From: [VALUE]\n"
                 f"To: {email_recipient}\n"
                 f"Subject: {mail_subject}\n\n"
                 f"{mail_body}"
